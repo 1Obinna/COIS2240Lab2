@@ -27,5 +27,17 @@ class Contact {
     }
 
     // Getters and Setters (if necessary)
-    // ...
+    // Getters for the properties
+    public String getName() {
+        return name;
+    }
+
+    public String getEmail() {
+        return email;
+    }
+
+    public String getPhoneNumber() {
+        return phoneNumber;
+    }
+}
 }
